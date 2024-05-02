@@ -67,9 +67,13 @@ section{
 .dream{
     display: flex;
     justify-content: space-between;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .dream p{
     font-size: 23px;
+    padding-right: 110px;
 }
 
 .ims img{
