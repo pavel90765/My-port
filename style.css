@@ -3,6 +3,9 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;}
+    body{
+        margin:0;
+    }
 
     h1{
         font-size:50px;
@@ -19,7 +22,6 @@
 
 section{
     display: flex;
-    justify-content: space-between;
 }
 
 .im{
@@ -36,11 +38,11 @@ section{
     color:black;
     border: none;
     outline:none;
-    background-color:orange;
-    padding:0.5rem 1rem;
-    font-size: 0.8rem;
-    font-weight: bold;
-    border-radius: 15px;
+   background-image: linear-gradient(orange, orangered);
+    padding:10px 40px;
+    font-size: 16.5px;
+    font-weight:700;
+    border-radius: 6px;
     cursor: pointer;
     transition: scale 0.2 ease;
     text-decoration: none;
@@ -48,6 +50,16 @@ section{
 
 .btn:hover{
     scale: 1.15em;;
-    color:green;
+    color:#fff;
 }
 
+.hd{
+    margin-left: 20px;
+    width: 50%;
+}
+
+.top-web{
+    background-image: url(images/top-banner.png);
+    background-repeat:no-repeat;
+    image
+}
