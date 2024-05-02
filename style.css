@@ -12,6 +12,11 @@
     color:orangered
 }
 
+.fp1{
+    font-size: 23px;
+    text-align: justify;
+}
+
 section{
     display: flex;
     justify-content: space-between;
@@ -27,22 +32,22 @@ section{
     border-radius: 50%;
 }
 
-button{
-    width: 20%;
-    height: 50px;
-    text-align: center;
-}
-
 .btn{
-    
-    text-decoration: none;
+    color:black;
+    border: none;
+    outline:none;
+    background-color:orange;
+    padding:0.5rem 1rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border-radius: 15px;
     cursor: pointer;
+    transition: scale 0.2 ease;
+    text-decoration: none;
 }
 
-.btn button:hover{
-    scale:0.95;
-}
-
-button:active{
+.btn:hover{
+    scale: 1.15em;;
     color:green;
 }
+
