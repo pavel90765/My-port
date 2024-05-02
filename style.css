@@ -20,7 +20,7 @@
     text-align: justify;
 }
 
-section{
+.Upper-body{
     display: flex;
     margin-bottom: 90px;
 }
@@ -81,4 +81,19 @@ section{
     border-radius: 50%;
     width: 100%;
     height: 100%;
+}
+
+.experience{
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.lower-body{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 25px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 50px gray;
 }
