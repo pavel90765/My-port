@@ -109,3 +109,8 @@
     border-image: linear-gradient(purple, red);
     border-image-slice: 1;
 }
+
+footer{
+    text-align:center;
+    font-size:20px;
+}
