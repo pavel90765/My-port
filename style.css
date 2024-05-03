@@ -97,3 +97,15 @@
     border-radius: 10px;
     box-shadow: 10px 10px 50px gray;
 }
+
+#ls{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#ls2{
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, red);
+    border-image-slice: 1;
+}
